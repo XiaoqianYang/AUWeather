@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AUWeather/WeatherService.swift"
-            timestampString = "509270543.952529"
+            timestampString = "509370087.707296"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "getWeatherByCityIds(city:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AUWeather/WeatherService.swift"
-            timestampString = "509334974.910655"
+            timestampString = "509370087.707296"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "getWeathersByJSON(json:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AUWeather/WeatherService.swift"
-            timestampString = "509334974.910655"
+            timestampString = "509370087.707296"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "getWeathersByJSON(json:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AUWeather/WeatherService.swift"
-            timestampString = "509299892.381135"
+            timestampString = "509370087.707296"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "getWeatherByCityIds(city:completion:)"
             landmarkType = "7">
          </BreakpointContent>

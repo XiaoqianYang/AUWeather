@@ -11,8 +11,14 @@ import Alamofire
 import SwiftyJSON
 
 struct WeatherService {
+    static let shared = WeatherService()
+
     private let urlPath = "http://api.openweathermap.org/data/2.5/group"
     private let appId = "b9a2eba6fbe31cfae0132e266c8630c0"
+    
+    private init() {
+        
+    }
     
     func getWeatherByCityIds(city : NSArray, completion: @escaping (_ weathers: NSArray) -> Void ){
         let cities = city.componentsJoined(by: ",")

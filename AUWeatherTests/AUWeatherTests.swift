@@ -12,7 +12,7 @@ import SwiftyJSON
 
 
 class WeatherServiceTests: XCTestCase {
-    let weatherService = WeatherService()
+    let weatherService = WeatherService.shared
     
     override func setUp() {
         super.setUp()
@@ -141,7 +141,6 @@ class WeatherServiceTests: XCTestCase {
     }
 
     func testGetWeatherByCityIdsWith3ID() {
-        let weatherService = WeatherService()
         let cities = ["4163971","2147714","2174003"];
         
         weatherService.getWeatherByCityIds(city: cities as NSArray) {
@@ -156,7 +155,6 @@ class WeatherServiceTests: XCTestCase {
     }
     
     func testGetWeatherByCityIdsWithOneID() {
-        let weatherService = WeatherService()
         let cities = ["4163971"];
         
         weatherService.getWeatherByCityIds(city: cities as NSArray) {
@@ -169,7 +167,6 @@ class WeatherServiceTests: XCTestCase {
     }
     
     func testGetWeatherByCityIdsWith3IDOneWrong() {
-        let weatherService = WeatherService()
         let cities = ["4163971","","2174003"];
         
         weatherService.getWeatherByCityIds(city: cities as NSArray) {

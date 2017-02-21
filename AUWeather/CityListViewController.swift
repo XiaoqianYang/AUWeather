@@ -14,7 +14,7 @@ class CityListViewController: UITableViewController {
 
     private var detailViewController: DetailViewController? = nil
     private var objects = NSArray()
-    private var weatherService = WeatherService()
+    private var weatherService = WeatherService.shared
     private let cities = ["4163971","2147714","2174003"];
     private let progress = GradientCircularProgress()
     
