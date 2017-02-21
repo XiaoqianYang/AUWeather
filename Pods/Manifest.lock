@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.3.0)
+  - GradientCircularProgress (3.6.0)
+  - Spring (1.0.3)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - GradientCircularProgress (from `https://github.com/keygx/GradientCircularProgress`)
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  GradientCircularProgress:
+    :git: https://github.com/keygx/GradientCircularProgress
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  GradientCircularProgress:
+    :commit: c90cb4044637127b0d66aab4a7bab9178684d79e
+    :git: https://github.com/keygx/GradientCircularProgress
+  Spring:
+    :commit: 3a9227c6e9157e7b47f5ac1ee5abab2a56b50002
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  GradientCircularProgress: 259d46ec93c2a3fe629199bbbdba98004afc8963
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 9959ea03a406f7ba65848ddc884f359ca9bd8e85
+
+COCOAPODS: 1.2.0
