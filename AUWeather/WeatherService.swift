@@ -40,9 +40,14 @@ struct WeatherService {
     internal func getWeathersByJSON(json : JSON) -> NSArray {
         let weathers = NSMutableArray()
         for (_,subjson):(String, JSON) in json["list"] {
-            let weather = Weather(name: subjson["name"].stringValue, temp: subjson["main"]["temp"].stringValue, main: subjson["weather"][0]["main"].stringValue, description: subjson["weather"][0]["description"].stringValue, temp_min: subjson["main"]["temp_min"].stringValue, temp_max: subjson["main"]["temp_max"].stringValue, humidity: subjson["main"]["humidity"].stringValue, pressure: subjson["main"]["pressure"].stringValue, wind: subjson["wind"]["speed"].stringValue)
+            if (subjson["name"].stringValue=="") {
+                continue
+            }
+            else {
+                let weather = Weather(name: subjson["name"].stringValue, temp: subjson["main"]["temp"].stringValue, main: subjson["weather"][0]["main"].stringValue, description: subjson["weather"][0]["description"].stringValue, temp_min: subjson["main"]["temp_min"].stringValue, temp_max: subjson["main"]["temp_max"].stringValue, humidity: subjson["main"]["humidity"].stringValue, pressure: subjson["main"]["pressure"].stringValue, wind: subjson["wind"]["speed"].stringValue)
 
-            weathers.add(weather)
+                weathers.add(weather)
+            }
         }
         return weathers
     }

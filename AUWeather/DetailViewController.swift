@@ -23,7 +23,7 @@ class DetailViewController: UIViewController {
         // Update the user interface for the detail item.
         if let detail = self.detailItem {
             self.title = detail.name
-            self.view.backgroundColor = UIColor(patternImage: UIImage.init(named:"blue")!)
+            //self.view.backgroundColor = UIColor(patternImage: UIImage.init(named:"blue")!)
             if let imageView = self.iconView {
                 if (detail.main.lowercased() == "clear") {
                     imageView.image = UIImage.init(named:"clear")

@@ -15,4 +15,8 @@ post_install do |installer|
         end
     end
 end
+
+target 'AUWeatherTests' do
+    inherit! :search_paths
+end
 end
