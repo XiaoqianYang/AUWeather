@@ -21,7 +21,6 @@
 		47ED9FE21E5B448700EF9ACC /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 47ED9FE11E5B448700EF9ACC /* clear.png */; };
 		47ED9FE41E5B559700EF9ACC /* rainning.png in Resources */ = {isa = PBXBuildFile; fileRef = 47ED9FE31E5B559700EF9ACC /* rainning.png */; };
 		47ED9FE61E5B562200EF9ACC /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 47ED9FE51E5B562200EF9ACC /* cloud.png */; };
-		47ED9FEA1E5B5BC900EF9ACC /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 47ED9FE91E5B5BC900EF9ACC /* blue.png */; };
 		490C1CA1D7F93B831A5A7C4B /* Pods_AUWeatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A27F7F2FCD5E574B7287C37 /* Pods_AUWeatherTests.framework */; };
 		EECCC55503BCBF4080B98FA5 /* Pods_AUWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5611CE2CFCE2FFE4981713A /* Pods_AUWeather.framework */; };
 /* End PBXBuildFile section */
@@ -67,7 +66,6 @@
 		47ED9FE11E5B448700EF9ACC /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear.png; sourceTree = "<group>"; };
 		47ED9FE31E5B559700EF9ACC /* rainning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainning.png; sourceTree = "<group>"; };
 		47ED9FE51E5B562200EF9ACC /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
-		47ED9FE91E5B5BC900EF9ACC /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
 		47ED9FEF1E5BBE7300EF9ACC /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/AUWeather-drqhdfjmqnkkdsfakuxvmkcznvzl/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		9A27F7F2FCD5E574B7287C37 /* Pods_AUWeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AUWeatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAC27A31D2DB7113D45899A /* Pods-AUWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AUWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-AUWeather/Pods-AUWeather.release.xcconfig"; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 				47ED9FE11E5B448700EF9ACC /* clear.png */,
 				47ED9FE51E5B562200EF9ACC /* cloud.png */,
 				47ED9FE31E5B559700EF9ACC /* rainning.png */,
-				47ED9FE91E5B5BC900EF9ACC /* blue.png */,
 				47ED9FB31E5AB5FE00EF9ACC /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -338,7 +335,6 @@
 			files = (
 				47ED9FB21E5AB5FE00EF9ACC /* LaunchScreen.storyboard in Resources */,
 				47ED9FAF1E5AB5FE00EF9ACC /* Assets.xcassets in Resources */,
-				47ED9FEA1E5B5BC900EF9ACC /* blue.png in Resources */,
 				47ED9FE61E5B562200EF9ACC /* cloud.png in Resources */,
 				47ED9FE21E5B448700EF9ACC /* clear.png in Resources */,
 				47ED9FAD1E5AB5FE00EF9ACC /* Main.storyboard in Resources */,
