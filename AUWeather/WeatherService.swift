@@ -44,7 +44,6 @@ struct WeatherService {
     }
     
     internal func getWeathersByJSON(json : JSON) -> NSArray {
-        print(json)
         let weathers = NSMutableArray()
         for (_,subjson):(String, JSON) in json["list"] {
             if (subjson["name"].stringValue=="") {
