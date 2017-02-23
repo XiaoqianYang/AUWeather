@@ -44,13 +44,14 @@ struct WeatherService {
     }
     
     internal func getWeathersByJSON(json : JSON) -> NSArray {
+        print(json)
         let weathers = NSMutableArray()
         for (_,subjson):(String, JSON) in json["list"] {
             if (subjson["name"].stringValue=="") {
                 continue
             }
             else {
-                let weather = Weather(name: subjson["name"].stringValue, temp: subjson["main"]["temp"].stringValue, main: subjson["weather"][0]["main"].stringValue, description: subjson["weather"][0]["description"].stringValue, temp_min: subjson["main"]["temp_min"].stringValue, temp_max: subjson["main"]["temp_max"].stringValue, humidity: subjson["main"]["humidity"].stringValue, pressure: subjson["main"]["pressure"].stringValue, wind: subjson["wind"]["speed"].stringValue)
+                let weather = Weather(name: subjson["name"].stringValue, temp: String(format:"%.0f", subjson["main"]["temp"].double!), main: subjson["weather"][0]["main"].stringValue, description: subjson["weather"][0]["description"].stringValue, temp_min: String(format:"%.0f", subjson["main"]["temp_min"].double!), temp_max: String(format:"%.0f", subjson["main"]["temp_max"].double!), humidity: String(format:"%.0f", subjson["main"]["humidity"].double!), pressure: String(format:"%.0f", subjson["main"]["pressure"].double!), wind: String(format:"%.1f", subjson["wind"]["speed"].double!))
 
                 weathers.add(weather)
             }
